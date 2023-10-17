@@ -1,0 +1,43 @@
+@font-face {
+  font-family: 'Goulong';
+  src: url('../../../public/fonts/Goulong.ttf') format('truetype');
+}
+
+
+.container {
+  background-color: #f8f8f8;
+}
+
+
+.logo {
+  position: absolute;
+  background-image: linear-gradient(100deg, #008BDC, #46BE00,#FFB600,#FF8500,#FF3620);
+  width: 50px;
+  height: 50px;
+  top: 20px;
+  left: 20px;
+  border-radius: 50%;
+  color: white;
+
+}
+
+.logoName {
+  position: absolute;
+  margin-left: 30px;
+  margin-top: 15px;
+  font-family: 'Goulong';
+  font-weight: 600;
+  font-size: 25px;
+}
+
+.logoP {
+  color: black;
+}
+
+.logoName:hover{
+  cursor: pointer;
+  font-size: 27px;
+}
+
+
+
