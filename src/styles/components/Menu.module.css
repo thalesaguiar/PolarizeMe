@@ -10,14 +10,14 @@
 
 
 .logo {
-  position: absolute;
+  display: flex; 
   background-image: linear-gradient(100deg, #008BDC, #46BE00,#FFB600,#FF8500,#FF3620);
   width: 50px;
   height: 50px;
-  top: 20px;
-  left: 20px;
   border-radius: 50%;
   color: white;
+  margin-top: 10px;
+  margin-left: 10px;
 
 }
 
